@@ -35,6 +35,9 @@ Realizar as conexões com banco de data.
 **• MySQL Driver:**
 Banco de dados utilizado para gerenciar dados.
 
+**• Flyway:**
+Migrations, utilzado para controle de versão(registro de mudanças) do banco de dados.
+
 <b><h2>Protótipo</h2></b>
 As imagens abaixo são apenas representativas, será desenvolvido apenas o back-end.
 ![Imagem representativa do programa](PrototipoProjeto.png)
