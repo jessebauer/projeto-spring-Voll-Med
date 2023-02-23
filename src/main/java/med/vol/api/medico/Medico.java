@@ -12,7 +12,7 @@ import med.vol.api.endereco.Endereco;
 @Getter // Gerar métodos getters
 @NoArgsConstructor // Gera construtor Default, sem argumentos obrigatorio pela JPA
 @AllArgsConstructor // Gera um construtor com 1 parametro para cada atributo da classe
-@EqualsAndHashCode(of="id") //
+@EqualsAndHashCode(of="id") // Gera método equals e hashcode apenas para o campo id
 public class Medico {
 
     @Id
@@ -22,10 +22,10 @@ public class Medico {
     private String email;
     private String crm;
 
-    @Enumerated(EnumType.STRING)
+    @Enumerated(EnumType.STRING) //Mostrar que é um Enum
     private Especialidade especialidade;
 
-    @Embedded
+    @Embedded //Incorpora valores da classe endereço
     private Endereco endereco;
 
     public Medico(DadosCadastroMedico dados) {
