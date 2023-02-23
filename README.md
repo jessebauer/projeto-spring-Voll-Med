@@ -15,19 +15,25 @@
 **• Java 17**
 
 **• Lombok:**
-responsável por fazer a geração de códigos repetitivos, como getters, setters, toString, entre outros. Tudo via anotações para o código ficar menos verboso.
+Responsável por fazer a geração de códigos repetitivos, como getters, setters, toString, entre outros. Tudo via anotações para o código ficar menos verboso.
 
 **• MySQL/ Flyway:**
-para armazenar as informações da API e junto com ele utilizaremos a biblioteca Flyway. Isso para termos o controle do histórico de evolução do banco de dados, um conceito que chamamos de Migration.
+Para armazenar as informações da API e junto com ele utilizaremos a biblioteca Flyway. Isso para termos o controle do histórico de evolução do banco de dados, um conceito que chamamos de Migration.
 
 **• JPA/Hibernate:**
 A camada de persistência da nossa aplicação será feita com a JPA (Java Persistence API), com o Hibernate como implementação dessa especificação e usando os módulos do Spring Boot, para tornar esse processo o mais simples possível.
 
 **• Maven:**
-gerenciar as dependências do projeto, e também para gerar o build da nossa aplicação.
+Gerenciar as dependências do projeto, e também para gerar o build da nossa aplicação.
 
 **• Insomnia:**
-sendo uma ferramenta usada para testes em API
+Sendo uma ferramenta usada para testes em API.
+
+**• Spring DATA JPA:**
+Realizar as conexões com banco de data.
+
+**• MySQL Driver:**
+Banco de dados utilizado para gerenciar dados.
 
 <b><h2>Protótipo</h2></b>
 As imagens abaixo são apenas representativas, será desenvolvido apenas o back-end.
