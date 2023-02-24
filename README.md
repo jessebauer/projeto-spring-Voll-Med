@@ -38,6 +38,9 @@ Banco de dados utilizado para gerenciar dados.
 **• Flyway:**
 Migrations, utilzado para controle de versão(registro de mudanças) do banco de dados.
 
+**Bean Validation:**
+Realização das validações através de anotações no controller e no DTO (Data Transfer Object)/Record.
+
 <b><h2>Protótipo</h2></b>
 As imagens abaixo são apenas representativas, será desenvolvido apenas o back-end.
 ![Imagem representativa do programa](PrototipoProjeto.png)
