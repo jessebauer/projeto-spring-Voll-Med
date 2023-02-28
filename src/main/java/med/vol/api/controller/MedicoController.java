@@ -30,7 +30,14 @@ public class MedicoController {
     @PutMapping
     @Transactional
     public void atualizar(@RequestBody @Valid DadosAtualizacaoMedico dados) {
-    var medico = repository.getReferenceById(dados.id());
-    medico.atualizarInformacoes(dados);
+        var medico = repository.getReferenceById(dados.id());
+        medico.atualizarInformacoes(dados);
+    }
+
+    //Exclusão do banco de dados.
+    @DeleteMapping("/{id}")// Path parametro na url
+    @Transactional
+    public void excluir(@PathVariable Long id) {
+        repository.deleteById(id);
     }
 }
