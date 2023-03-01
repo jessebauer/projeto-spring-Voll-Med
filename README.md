@@ -1,4 +1,4 @@
-<b><h1>Objetivo</h1></b>
+<b><h1>Objetivo Etapa 1</h1></b>
 
 • Desenvolvimento de uma API Rest
 
@@ -50,3 +50,20 @@ Empresa chamada Voll Med(fictícia), que possui uma clínica que precisa de um a
 
 Será um aplicativo com algumas opções, em que a pessoa que for usar pode fazer o <b>CRUD</b>, tanto de médicos quanto de pacientes e o agendamento e cancelamento das consultas.
 
+<b><h1>Objetivo Etapa 2</h1></b>
+
+• Boas práticas na API
+
+• Tratamento de erros
+
+• Autenticação/Autorização
+
+• Tokens JWT
+
+<b><h2>Tecnologias</h2></b>
+
+**• Spring Security:**
+Responsável por monitorar o controle de acesso a informações públicas e privadas.
+
+**• JSON Web Token (JWT):**
+Autenticação fundamentada em tokens.
