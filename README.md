@@ -43,7 +43,7 @@ Realização das validações através de anotações no controller e no DTO (Da
 
 <b><h2>Protótipo</h2></b>
 As imagens abaixo são apenas representativas, será desenvolvido apenas o back-end.
-![Imagem representativa do programa](PrototipoProjeto.png)
+![Imagem representativa do programa](images/PrototipoProjeto.png)
 
 
 Empresa chamada Voll Med(fictícia), que possui uma clínica que precisa de um aplicativo para monitorar o cadastro de médicos, pacientes e agendamento de consultas.
@@ -67,3 +67,7 @@ Responsável por monitorar o controle de acesso a informações públicas e priv
 
 **• JSON Web Token (JWT):**
 Autenticação fundamentada em tokens.
+
+<b><h1>Insomnia</h1></b>
+
+![Imagem do Insomnia](images/CapInsomnia.png)
