@@ -40,15 +40,13 @@ public class MedicoController {
         medico.atualizarInformacoes(dados);
         return ResponseEntity.ok(new DadosDetalhamentoMedico(medico));
     }
+//Exclusão do banco de dados.
+//        @DeleteMapping("/{id}")// Path parametro na url
+//        @Transactional
+//        public void excluir(@PathVariable Long id) {
+//            repository.deleteById(id);
+//        }
 
-    /*
-        //Exclusão do banco de dados.
-        @DeleteMapping("/{id}")// Path parametro na url
-        @Transactional
-        public void excluir(@PathVariable Long id) {
-            repository.deleteById(id);
-        }
-    */
     //Exclusão lógica, modificando status de ativação do médico
     @DeleteMapping("/{id}")// Path parametro na url
     @Transactional
