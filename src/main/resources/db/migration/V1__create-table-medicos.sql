@@ -14,4 +14,5 @@ create table medicos(
     cidade varchar(100) not null,
 
     primary key(id)
+
 );

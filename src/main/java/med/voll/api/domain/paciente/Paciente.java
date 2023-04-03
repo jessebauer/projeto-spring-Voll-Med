@@ -14,15 +14,19 @@ import med.voll.api.domain.endereco.Endereco;
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
 public class Paciente {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nome;
     private String email;
+
     private String telefone;
+
     private String cpf;
+
     @Embedded
     private Endereco endereco;
+
     private Boolean ativo;
 
     public Paciente(DadosCadastroPaciente dados) {
