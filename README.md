@@ -1,73 +1,50 @@
-<b><h1>Objetivo Etapa 1</h1></b>
+## 💻 Sobre o projeto
 
-• Desenvolvimento de uma API Rest
+Voll.med é uma clínica médica fictícia que precisa de um aplicativo para gestão de consultas. O aplicativo deve possuir funcionalidades que permitam o cadastro de médicos e de pacientes, e também o agendamento e cancelamento de consultas.
 
-• CRUD (Create, Read, Update e Delete)
+Enquanto um time de desenvolvimento será responsável pelo aplicativo mobile, o nosso será responsável pelo desenvolvimento da API Rest desse projeto.
 
-• Validações
+---
 
-• Paginação e ordenação
+## ⚙️ Funcionalidades
 
-<b><h2>Tecnologias</h2></b>
+- [x] CRUD de médicos;
+- [x] CRUD de pacientes;
+- [ ] Agendamento de consultas(em breve);
+- [ ] Cancelamento de consultas(em breve);
 
-**• Spring Boot 3**
+---
 
-**• Java 17**
+## 🎨 Layout
 
-**• Lombok:**
-Responsável por fazer a geração de códigos repetitivos, como getters, setters, toString, entre outros. Tudo via anotações para o código ficar menos verboso.
+O layout da aplicação mobile está disponível neste link: <a href="https://www.figma.com/file/N4CgpJqsg7gjbKuDmra3EV/Voll.med">Figma</a>
 
-**• MySQL/ Flyway:**
-Para armazenar as informações da API e junto com ele utilizaremos a biblioteca Flyway. Isso para termos o controle do histórico de evolução do banco de dados, um conceito que chamamos de Migration.
+---
 
-**• JPA/Hibernate:**
-A camada de persistência da nossa aplicação será feita com a JPA (Java Persistence API), com o Hibernate como implementação dessa especificação e usando os módulos do Spring Boot, para tornar esse processo o mais simples possível.
+## 📄 Documentação
 
-**• Maven:**
-Gerenciar as dependências do projeto, e também para gerar o build da nossa aplicação.
+A documentação das funcionalidades da aplicação pode ser acessada neste link: <a href="https://trello.com/b/O0lGCsKb/api-voll-med">Trello</a>
 
-**• Insomnia:**
-Sendo uma ferramenta usada para testes em API.
+---
 
-**• Spring DATA JPA:**
-Realizar as conexões com banco de data.
+## 🛠 Tecnologias
 
-**• MySQL Driver:**
-Banco de dados utilizado para gerenciar dados.
+As seguintes tecnologias foram utilizadas no desenvolvimento da API Rest do projeto:
 
-**• Flyway:**
-Migrations, utilzado para controle de versão(registro de mudanças) do banco de dados.
+- **[Java 17](https://www.oracle.com/java)**
+- **[Spring Boot 3](https://spring.io/projects/spring-boot)**
+- **[Maven](https://maven.apache.org)**
+- **[MySQL](https://www.mysql.com)**
+- **[Hibernate](https://hibernate.org)**
+- **[Flyway](https://flywaydb.org)**
+- **[Lombok](https://projectlombok.org)**
 
-**Bean Validation:**
-Realização das validações através de anotações no controller e no DTO (Data Transfer Object)/Record.
+---
 
-<b><h2>Protótipo</h2></b>
-As imagens abaixo são apenas representativas, será desenvolvido apenas o back-end.
-![Imagem representativa do programa](images/PrototipoProjeto.png)
+## 📝 Licença
 
+Projeto desenvolvido por [Alura](https://www.alura.com.br) e utilizado nos cursos de Spring Boot.
 
-Empresa chamada Voll Med(fictícia), que possui uma clínica que precisa de um aplicativo para monitorar o cadastro de médicos, pacientes e agendamento de consultas.
+Instrutor: [Rodrigo Ferreira](https://cursos.alura.com.br/user/rodrigo-ferreira) 
 
-Será um aplicativo com algumas opções, em que a pessoa que for usar pode fazer o <b>CRUD</b>, tanto de médicos quanto de pacientes e o agendamento e cancelamento das consultas.
-
-<b><h1>Objetivo Etapa 2</h1></b>
-
-• Boas práticas na API
-
-• Tratamento de erros
-
-• Autenticação/Autorização
-
-• Tokens JWT
-
-<b><h2>Tecnologias</h2></b>
-
-**• Spring Security:**
-Responsável por monitorar o controle de acesso a informações públicas e privadas.
-
-**• JSON Web Token (JWT):**
-Autenticação fundamentada em tokens.
-
-<b><h1>Insomnia</h1></b>
-
-![Imagem do Insomnia](images/CapInsomnia.png)
+---
